@@ -179,6 +179,7 @@ header a{
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
     background: var(--secondary-color-red);
+    letter-spacing: 3px;
 }
 
 @keyframes animate{
