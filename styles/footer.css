@@ -10,6 +10,7 @@ footer{
 
 #logo{
     color: var(--secondary-color-red);
+    font-weight: bold;
 }
 
 footer i{
@@ -23,6 +24,7 @@ footer .services h2{
     font-size: 1.2rem;
     margin-bottom: 6px;
     letter-spacing: 3px;
+    font-weight: bold;
 }
 
 footer .contact{
