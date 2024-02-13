@@ -1,0 +1,158 @@
+.about, #hotspot-dest{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: rgb(0, 0, 0);
+    border: none;
+}
+
+.logo1 img{
+    width: 200px;
+}
+
+.about .content{
+    width: 50%;
+}
+
+.about .content .title{
+    margin-bottom: 30px;
+    color: var(--secondary-color-red);
+}
+
+.about a i{
+    font-size: 1.5rem;
+    margin-right: 3px;
+}
+
+.bxl-instagram,.bxl-twitter{
+    color: var(--primary-color-white);
+}
+
+#content>p{
+    line-height: 40px;
+    color: rgba(240, 248, 255, 0);
+}
+
+#content>p>span{
+    color: #ffffff;
+}
+
+#hotspot-dest{
+    flex-direction: column;
+}
+
+#hotspot-dest .title{
+    margin-bottom: 80px;
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 20%;
+}
+
+#hotspot-dest .title span{
+    color: var(--secondary-color-red);
+}
+
+#hotspot-dest .images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 90px;
+}
+
+#hotspot-dest .img{
+    height: 300px;
+    width: 200px;
+    position: relative
+}
+
+#hotspot-dest .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#hotspot-dest .img::before{
+    content:"" ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top, rgb(0, 0, 0),transparent);
+    z-index: 2;
+}
+
+#hotspot-dest .img:nth-child(2),#hotspot-dest .img:nth-child(4){
+    margin-top: -80px;
+}
+
+#hotspot-dest .content{
+    width: 50%;
+}
+
+@media (max-width:48rem){
+
+    #hotspot-dest .title{
+        align-self: center;
+        margin: 0;
+        text-align: center;
+    }
+
+    #hotspot-dest .images{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #hotspot-dest .img{
+        height: 200px;
+        width: 300px;
+    }
+
+    #hotspot-dest .img:nth-child(2),#hotspot-dest .img:nth-child(4){
+        margin-right: -25px;
+        margin-top: 0;
+    }
+
+    #hotspot-dest .img:nth-child(1),#hotspot-dest .img:nth-child(3){
+        margin-left: -25px;
+    }
+
+    #hotspot-dest .img:nth-child(1):before,#hotspot-dest .img:nth-child(3):before{
+        right: 0;
+        height: 100%;
+        width: 10%;
+        background: linear-gradient(to left, rgb(0, 0, 0),transparent);
+    }
+
+    #hotspot-dest .img:nth-child(2):before,#hotspot-dest .img:nth-child(4):before{
+        height: 100%;
+        width: 10%;
+        background: linear-gradient(to right, rgb(0, 0, 0),transparent);
+    }
+
+    #hotspot-dest .images h2{
+        position: absolute;
+        /* top: 50%;
+        left: 50%;
+        transform: translate(-50%,50%); */
+        top: 0;
+        height: 200px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.541);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hotspot-dest .content, .about .content{
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+
+}

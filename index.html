@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/info.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/aos.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js" defer></script>
+
+    <script src="scripts/app.js" defer></script>
+</head>
+<body >
+    <header>
+        <nav>
+            <div class="nav-items">
+            <a href="">Home</a>
+            <a href="">Contacts</a>
+            <a href="">Info</a>
+            </div>
+            <div class="logo">
+            <a href="">ukiyo</a>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <div class="container" data-scroll data-scroll-speed="-5"  >
+            <div class="slide" >
+                <div class="item">
+                    <div class="image" ><img src="assets/cherry-blossom.jpg" alt=""></div>
+                    <div class="content">
+                        <div class="title">Blossoms</div>
+                        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button class="btn">See More</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image"><img id="t-tower" src="assets/tokyo-tower-morn.jpg" alt=""></div>
+                    <div class="content">
+                        <div class="title">Explore Tokyo</div>
+                        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button class="btn">See More</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image"><img src="assets/kyoto2.jpg" alt=""></div>
+                    <div class="content">
+                        <div class="title">Kyoto</div>
+                        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button class="btn">See More</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="image"><img src="assets/osaka.jpg" alt=""></div>
+                    <div class="content">
+                        <div class="title">osaka</div>
+                        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button class="btn">See More</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image"> <img src="assets/tori-gate.jpg" alt=""></div>
+                    <div class="content">
+                        <div class="title">Tori gate</div>
+                        <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button class="btn">See More</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="button">
+                <button class="prev"><i class='bx bxs-left-arrow'></i></button>
+                <button class="next"><i class='bx bxs-right-arrow'></i></button>
+            </div>
+    
+        </div>
+
+        <section class="about">
+           <div class="content" id="content">
+            <div class="logo1"><img src="assets/logo.png" alt=""></div>
+            <div class="title">ukiyo tours</div>
+            <p class="caption">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, harum rem natus ipsum laborum repellendus laudantium rerum quibusdam ut veniam aut similique consectetur. Dolores sint ratione aut? Sit et doloremque pariatur enim molestiae exercitationem, quod libero blanditiis ab, voluptate autem quis beatae nihil delectus, voluptas dolores soluta. Dolores, odit et!</p>
+            <a href=""><i class='bx bxl-instagram' ></i></a>
+            <a href=""><i class='bx bxl-behance' ></i></a>
+            <a href=""><i class='bx bxl-twitter' ></i></a>
+            <a href=""><i class='bx bxl-pinterest' ></i></a>
+           </div>
+        </section>
+
+        <section id="hotspot-dest">
+            <h2 class="title hidden"><span>Top destination </span><br>to explore!</h2>
+            <div class="images">
+                <div class="img">
+                    <img class="scale-out" class="scale-out" src="https://res.cloudinary.com/duqweg9fr/image/upload/v1707560643/355f283366ca8428b40b303652bbd7f9_rl6wco.jpg" alt="">
+                    <h2 class="hidden stager">OSAKA</h2>
+                </div>
+                <div class="img">
+                    <img class="scale-out" src="https://res.cloudinary.com/duqweg9fr/image/upload/v1707560643/cda399e2c2b35122f7f299c5f4f7eeda_l6jqcm.jpg" alt="">
+                    <h2 class="hidden stager">KYOTO</h2>
+                </div>
+                <div class="img">
+                    <img class="scale-out" src="https://res.cloudinary.com/duqweg9fr/image/upload/v1707560643/4c88587f19498195f18b89a1a8e867b2_d5aiwp.jpg" alt="">
+                    <h2 class="hidden stager">TOKYO TOWER</h2>
+                </div>
+                <div class="img">
+                    <img class="scale-out" src="https://res.cloudinary.com/duqweg9fr/image/upload/v1707560643/45bc8ba9a84fe48431c95a1a5aa6af48_tzgkvg.jpg" alt="">
+                    <h2 class="hidden stager">TOKYO</h2>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <h2 id="logo"><span>U</span>K<span>I</span>Y<span>O</span><br><span>T</span>O<span>U</span>R<span>S</span></h2>
+        <ul class="services">
+            <li><h2>services</h2></li>
+            <li class="hidden stager">Exceptional Travel experience</li>
+            <li class="hidden stager">Secure Bookings</li>
+            <li class="hidden stager">Travel Guide</li>
+        </ul>
+        <ul class="contact">
+            <li class="hidden stager">
+                <i class='bx bxs-map' ></i>
+                <p>#439, STREET-NAME, landmark, 560023, city</p>
+            </li>
+            <li class="hidden stager">
+                <i class='bx bxs-envelope' ></i>
+                <p>ukiyotours@gmail.com</p>
+            </li>
+            <li class="hidden stager">
+                <i class='bx bx-mobile' ></i>
+                <p>+91 1234 56789</p>
+            </li>
+        </ul>
+      </footer>
+</body>
+</html>
