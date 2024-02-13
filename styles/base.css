@@ -156,7 +156,7 @@ header a{
 
 .content .title{
     font-size:50px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 500;
     opacity: 0;
     animation: animate 1s ease-in-out 1 forwards;
@@ -169,6 +169,7 @@ header a{
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
     color: whitesmoke;
+    font-size: 1.2rem;
 }
 
 .btn{
