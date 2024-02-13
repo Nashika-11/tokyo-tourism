@@ -1,5 +1,4 @@
 footer{
-    /* background: var(--secondary-color-red); */
     border-top: 2px solid var(--secondary-color-red);
     display: flex;
     justify-content: space-between;

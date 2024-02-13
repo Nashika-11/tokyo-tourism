@@ -29,17 +29,6 @@
     transition-delay: 1s;
   }
 
-  .slide-out{
-    opacity: 0;
-    transform: translateX(-100%);
-    transition: all 1.5s;
-  }
-
-  .slide-in{
-    opacity: 1;
-    transform: translateX(0);
-  }
-
   .scale-out{
     opacity: 0;
     transform: scale(0);
